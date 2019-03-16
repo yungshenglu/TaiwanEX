@@ -1,0 +1,48 @@
+{
+    "name": "taiwanex",
+    "description": "TaiwanEX",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://yungshenglu.github.io/TaiwanEX/",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.24.1",
+        "immutable": "^3.8.2",
+        "react-dom": "^16.1.1",
+        "react-redux": "^5.0.6",
+        "react-router": "^4.2.0",
+        "react-router-dom": "^4.2.2",
+        "redux": "^3.7.2",
+        "redux-thunk": "^2.2.0",
+        "webpack": "^3.8.1"
+    },
+    "dependencies": {
+        "canvas": "^2.4.0",
+        "canvg": "^1.5.3",
+        "d3-geo": "^1.9.0",
+        "firebase": "^4.6.2",
+        "gh-pages": "^1.2.0",
+        "react": "^16.1.1",
+        "react-scripts": "^1.1.4",
+        "save-canvas-to-image": "^0.1.1",
+        "topojson-client": "^3.0.0",
+        "xmlserializer": "^0.6.1"
+    },
+    "scripts": {
+        "test-build": "webpack",
+        "test-start": "firebase serve",
+        "test": "webpack && firebase serve",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "firebase serve && react-scripts start",
+        "build": "webpack && react-scripts build"
+    },
+    "babel": {
+        "presets": [
+            "env",
+            "react"
+        ]
+    }
+}

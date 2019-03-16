@@ -1,0 +1,183 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #B4DEF7 !important;
+    font-family: 'Noto Serif CJK TC', sans-serif !important;
+    margin: 0;
+}
+
+#title {
+    font-size: 48px;
+    margin: 0px;
+}
+
+#subtitle {
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 4px;
+}
+
+#legend-box {
+    font-size: 20px;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+}
+
+#legend-box p {
+    margin: 8px;
+}
+
+.legend {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 4px;
+    position: relative;
+    top: 2.5px;
+}
+
+#map-box {
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: right;
+}
+
+#hint {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    font-size: 28px;
+    width: 100px;
+    pointer-events: none;
+    position: fixed;
+    text-align: center;
+    visibility: hidden;
+}
+
+.default {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+  
+
+.map {
+    width: 100%;
+    max-width: 450px;
+}
+  
+/* Fix IE svg issue */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    #map {
+        height: 1124px;
+        width: 750px;
+        max-height: 674px;
+        max-width: 450px;
+    }
+}
+
+#lv0 {
+    background-color: gainsboro;
+}
+
+#lv1 {
+    background-color: #adfcad;
+}
+
+#lv2 {
+    background-color: #ffcb40;
+}
+
+#lv3 {
+    background-color: #ff7d73;
+}
+
+#lv4 {
+    background-color: #ff4e40;
+}
+
+.district-border {
+    stroke: #FFFFFF80;
+    stroke-width: 0.1px;
+}
+
+.county-border {
+    stroke: #333333;
+    stroke-width: 4px;
+}
+
+.border {
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+
+#tainan>path:hover {
+    stroke: black;
+    stroke-width: 2px;
+}
+
+#bottom {
+    font-size: 18px !important;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 100;
+}
+
+#github {
+    padding: 4px !important;
+}
+
+#github svg {
+    display: inline;
+    height: 28.5px;
+    margin: 0;
+    position: relative;
+    vertical-align: middle;
+}
+
+.button {
+    background: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    color: #333333;
+    cursor: pointer;
+    font-size: 14px;
+    height: 30px;
+    width: 80px;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+  
+.button:hover {
+    background: #EEEEEE;
+}
+
+.footer {
+    align-items: center;
+    background: #555555;
+    display: flex;
+    height: 22px;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> master

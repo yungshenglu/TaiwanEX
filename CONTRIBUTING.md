@@ -2,6 +2,7 @@
 
 Thanks for contributing *TaiwanEX*. The following steps are show how to contribute to *TaiwanEX*. Please read the following content before contributing. Thanks for your cooperation.
 
+---
 ## Pull requests
 
 1. Fork this repository and clone the repository you forked.
@@ -32,11 +33,6 @@ Thanks for contributing *TaiwanEX*. The following steps are show how to contribu
     # Merge our latest version to your branch
     $ git rebase upstream/master
     ```
-
----
-## Contributor
-
-* [David Lu](https://github.com/yungshenglu)
 
 ---
 ## License

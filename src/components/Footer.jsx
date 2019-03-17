@@ -12,7 +12,7 @@ class Footer extends Component {
                     id="ref" 
                     href="https://zhung.com.tw/japanex/" 
                     target="_blank">
-                    Refer To JapanEX
+                    Refer To Japanex
                 </a>
             </div>
         );

@@ -34,10 +34,10 @@
         "test-build": "webpack",
         "test-start": "firebase serve",
         "test": "webpack && firebase serve",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "build": "webpack && react-scripts build",
         "start": "firebase serve && react-scripts start",
-        "build": "webpack && react-scripts build"
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"        
     },
     "babel": {
         "presets": [
